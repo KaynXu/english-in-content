@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Quiz</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="library-page">
+    <main class="quiz-page" aria-label="Dictation quiz">
+      <nav class="site-nav" aria-label="Site">
+        <a href="index.html">Videos</a>
+        <a href="articles.html">Articles</a>
+        <a href="library.html">Library</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+
+      <section class="quiz-view" id="quizDeckView">
+        <h1 class="library-title">Quiz</h1>
+        <div class="quiz-mode-row">
+          <button class="quiz-mode" id="quizDaily" type="button">
+            <span class="quiz-mode-word">Daily</span>
+            <span class="quiz-mode-count" id="quizDailyCount" hidden></span>
+          </button>
+          <button class="quiz-mode is-active" id="quizDecks" type="button">Decks</button>
+        </div>
+        <div class="quiz-deck-list" id="quizDeckList"></div>
+      </section>
+
+      <section class="quiz-view" id="quizPlayView" hidden>
+        <span class="progress" id="quizProgress" aria-live="polite"></span>
+        <div class="quiz-card">
+          <div class="image-frame">
+            <img id="quizImage" src="" alt="" decoding="async" />
+          </div>
+          <div class="quiz-slots" id="quizSlots" aria-label="Word letters"></div>
+          <button class="sound-button" id="quizSound" type="button" aria-label="Play American pronunciation">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path class="speaker" d="M4 9v6h4l5 4V5L8 9H4Z" />
+              <path class="sound-wave sound-wave--one" d="M16 9.25a4 4 0 0 1 0 5.5" />
+              <path class="sound-wave sound-wave--two" d="M18.75 6.5a7.75 7.75 0 0 1 0 11" />
+            </svg>
+          </button>
+          <p class="quiz-reveal" id="quizReveal" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="quiz-view" id="quizDoneView" hidden>
+        <div class="quiz-card">
+          <h1 class="quiz-done">Done</h1>
+        </div>
+      </section>
+      <div id="quizDialogRoot"></div>
+    </main>
+    <script src="vocabulary.js"></script>
+    <script src="library.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+</html>

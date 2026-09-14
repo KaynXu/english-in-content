@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Library</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="library-page">
+    <main class="vocab-page" aria-label="Vocabulary library">
+      <nav class="site-nav" aria-label="Site">
+        <a href="index.html">Videos</a>
+        <a href="articles.html">Articles</a>
+        <a href="library.html" aria-current="page">Library</a>
+        <a href="quiz.html">Quiz</a>
+      </nav>
+      <header class="vocab-header">
+        <h1 class="library-title">Library</h1>
+      </header>
+      <div class="vocab-library-head">
+        <span class="vocab-stats" id="vocabStats" aria-live="polite"></span>
+        <a class="vocab-all" id="vocabAll" href="library.html" hidden>All words</a>
+        <span class="vocab-filters" role="group" aria-label="Filter by status">
+          <button class="vocab-dot vocab-dot--yellow" id="filterYellow" type="button" aria-label="Show yellow only"></button>
+          <button class="vocab-dot vocab-dot--green" id="filterGreen" type="button" aria-label="Show green only"></button>
+        </span>
+        <input
+          class="vocab-search"
+          id="vocabSearch"
+          type="search"
+          placeholder="Search"
+          aria-label="Search vocabulary"
+        />
+        <button class="vocab-auth" id="vocabAuth" type="button" hidden>
+          Enable autosave
+        </button>
+        <a class="vocab-download" id="vocabDownload" hidden download="vocabulary.js">
+          Download vocabulary.js
+        </a>
+      </div>
+      <div class="vocab-groups" id="vocabGroups" aria-label="Vocabulary groups"></div>
+    </main>
+    <script src="vocabulary.js"></script>
+    <script src="library.js"></script>
+  </body>
+</html>

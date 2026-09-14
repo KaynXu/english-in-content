@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>We Must Pace the Frontier</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../../reader.css" />
+  </head>
+  <body class="library-page">
+    <main class="reader-page">
+      <nav class="site-nav" aria-label="Site">
+        <a href="../../index.html">Videos</a>
+        <a href="../../articles.html">Articles</a>
+        <a href="../../library.html">Library</a>
+        <a href="../../quiz.html">Quiz</a>
+      </nav>
+      <article class="reader" aria-labelledby="articleTitle">
+        <header class="reader-header">
+          <p class="reader-byline" id="articleByline"></p>
+          <h1 id="articleTitle"></h1>
+          <div class="reader-links">
+            <a id="articleSource" target="_blank" rel="noopener noreferrer">Original</a>
+            <a id="articleWords">Words</a>
+          </div>
+        </header>
+        <div class="reader-body" id="articleBody"></div>
+      </article>
+      <aside class="reader-popup" id="readerPopup" role="dialog" aria-label="Word meaning" hidden>
+        <button class="reader-close" id="readerClose" type="button" aria-label="Close explanation">&times;</button>
+        <div id="readerExplanation"></div>
+        <p class="reader-save-notice" id="readerSaveNotice" role="status" hidden>
+          Not saved.
+          <a id="readerEnableSave" href="../../library.html" target="_blank" rel="noopener noreferrer">Enable saving in Library</a>
+        </p>
+      </aside>
+    </main>
+    <script src="../../vocabulary.js"></script>
+    <script src="../../library.js"></script>
+    <script src="cards.js"></script>
+    <script src="article.js"></script>
+    <script src="../../reader.js"></script>
+  </body>
+</html>

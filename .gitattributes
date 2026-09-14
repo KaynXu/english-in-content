@@ -1,0 +1,3 @@
+# Captions are source text. Keep their spacing and blank lines unchanged.
+*.vtt -whitespace
+*.txt -whitespace

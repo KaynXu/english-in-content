@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>Vocabulary Cards</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body>
+    <main class="stage">
+      <a class="back-button" href="../../index.html" aria-label="Back to video library">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M14.5 5.5 8 12l6.5 6.5" />
+        </svg>
+      </a>
+
+      <span class="progress" id="progress" aria-live="polite"></span>
+      <span class="status-dot" id="statusDot" role="button" tabindex="0" aria-label="Filter: all"></span>
+
+      <button class="nav-button nav-button--previous" id="previous" type="button" aria-label="Previous word">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M15.25 4.75 8 12l7.25 7.25" />
+        </svg>
+      </button>
+
+      <article class="card" id="card" aria-live="polite">
+        <div class="image-frame">
+          <img id="image" src="" alt="" decoding="async" />
+        </div>
+
+        <div class="card-text">
+          <div class="word-row">
+            <h1 id="word"></h1>
+            <button class="sound-button" id="sound" type="button" aria-label="Play American pronunciation">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path class="speaker" d="M4 9v6h4l5 4V5L8 9H4Z" />
+                <path class="sound-wave sound-wave--one" d="M16 9.25a4 4 0 0 1 0 5.5" />
+                <path class="sound-wave sound-wave--two" d="M18.75 6.5a7.75 7.75 0 0 1 0 11" />
+              </svg>
+            </button>
+          </div>
+
+          <p class="ipa" id="ipa"></p>
+
+          <p class="definition" id="definition"></p>
+          <p class="sentence" id="sentence"></p>
+
+          <div class="flip-face" id="flip" hidden>
+            <p class="zh" id="zh"></p>
+            <p class="zh-sentence" id="sentenceZh"></p>
+          </div>
+        </div>
+      </article>
+
+      <p class="cards-empty" id="cardsEmpty" hidden>All mastered.</p>
+
+      <button class="nav-button nav-button--next" id="next" type="button" aria-label="Next word">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m8.75 4.75 7.25 7.25-7.25 7.25" />
+        </svg>
+      </button>
+    </main>
+
+    <script src="cards.js"></script>
+    <script src="../../vocabulary.js"></script>
+    <script src="../../library.js"></script>
+    <script src="../../app.js"></script>
+  </body>
+</html>

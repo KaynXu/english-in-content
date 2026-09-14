@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="description" content="Learn English from real videos and articles with vocabulary cards, American pronunciation, and context notes." />
+    <meta name="keywords" content="English learning, English vocabulary, YouTube English, article reading, American English, vocabulary cards" />
+    <title>Context English - Learn English from Videos and Articles</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="library-page">
+    <main class="video-library" aria-label="Vocabulary videos">
+      <h1 class="library-title">Vocabulary</h1>
+      <nav class="site-nav" aria-label="Site">
+        <a href="index.html" aria-current="page">Videos</a>
+        <a href="articles.html">Articles</a>
+        <a href="library.html">Library</a>
+        <a href="quiz.html">Quiz</a>
+      </nav>
+      <div class="video-grid">
+
+        <a
+          class="video-card"
+          href="videos/Pavel Durov Telegram, Freedom, Censorship, Money &amp; Power - Lex Fridman/cards.html"
+          aria-label="Open vocabulary cards for the Pavel Durov interview"
+        >
+          <img
+            src="videos/Pavel Durov Telegram, Freedom, Censorship, Money &amp; Power - Lex Fridman/thumbnail.jpg"
+            alt="Pavel Durov and Lex Fridman podcast video thumbnail"
+            width="1280"
+            height="720"
+          />
+          <div class="video-card-meta" data-deck="Pavel Durov Telegram, Freedom, Censorship, Money &amp; Power">
+            <span class="video-card-title">Pavel Durov Telegram, Freedom, Censorship, Money &amp; Power</span>
+            <span class="progress-ring" aria-hidden="true">
+              <svg viewBox="0 0 16 16">
+                <circle class="ring-track" cx="8" cy="8" r="6.75"></circle>
+                <circle class="ring-arc" cx="8" cy="8" r="6.75"></circle>
+              </svg>
+            </span>
+          </div>
+        </a>
+        <a
+          class="video-card"
+          href="videos/The $1 Trillion Problem Diamonds Can Solve - Cleo Abram/cards.html"
+          aria-label="Open vocabulary cards for the diamonds video"
+        >
+          <img
+            src="videos/The $1 Trillion Problem Diamonds Can Solve - Cleo Abram/thumbnail.jpg"
+            alt="The 1 trillion problem diamonds can solve video thumbnail"
+            width="1280"
+            height="720"
+          />
+          <div class="video-card-meta" data-deck="The $1 Trillion Problem Diamonds Can Solve">
+            <span class="video-card-title">The $1 Trillion Problem Diamonds Can Solve</span>
+            <span class="progress-ring" aria-hidden="true">
+              <svg viewBox="0 0 16 16">
+                <circle class="ring-track" cx="8" cy="8" r="6.75"></circle>
+                <circle class="ring-arc" cx="8" cy="8" r="6.75"></circle>
+              </svg>
+            </span>
+          </div>
+        </a>
+        <a
+          class="video-card"
+          href="videos/What It's Really Like at Hong Kong's Most Iconic Hotel, The Peninsula - Ryan Walker/cards.html"
+          aria-label="Open vocabulary cards for The Peninsula Hong Kong review"
+        >
+          <img
+            src="videos/What It's Really Like at Hong Kong's Most Iconic Hotel, The Peninsula - Ryan Walker/thumbnail.jpg"
+            alt="The Peninsula Hong Kong review video thumbnail"
+            width="1280"
+            height="720"
+          />
+          <div class="video-card-meta" data-deck="What It's Really Like at Hong Kong's Most Iconic Hotel, The Peninsula">
+            <span class="video-card-title">What It's Really Like at Hong Kong's Most Iconic Hotel, The Peninsula</span>
+            <span class="progress-ring" aria-hidden="true">
+              <svg viewBox="0 0 16 16">
+                <circle class="ring-track" cx="8" cy="8" r="6.75"></circle>
+                <circle class="ring-arc" cx="8" cy="8" r="6.75"></circle>
+              </svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </main>
+    <script src="vocabulary.js"></script>
+    <script>
+      (function () {
+        const R = 6.75;
+        const C = 2 * Math.PI * R;
+        const grid = document.querySelector(".video-grid");
+        const completedCards = [];
+        document.querySelectorAll(".video-card-meta").forEach((meta) => {
+          const deck = meta.dataset.deck;
+          const words = Object.keys(window.VOCABULARY).filter((w) =>
+            window.VOCABULARY[w].decks.includes(deck),
+          );
+          const card = meta.closest(".video-card");
+          if (!words.length) {
+            meta.querySelector(".progress-ring").hidden = true;
+            return;
+          }
+          const green = words.filter((w) => window.VOCABULARY[w].status === "green").length;
+          if (green === words.length) {
+            completedCards.push(card);
+            return;
+          }
+          const arc = meta.querySelector(".ring-arc");
+          arc.style.strokeDasharray = (C * green) / words.length + " " + C;
+        });
+        if (completedCards.length) {
+          const section = document.createElement("div");
+          section.className = "completed-section";
+          const toggle = document.createElement("button");
+          toggle.className = "completed-toggle";
+          toggle.type = "button";
+          toggle.textContent = "Completed · " + completedCards.length;
+          toggle.setAttribute("aria-expanded", "false");
+          const thumbGrid = document.createElement("div");
+          thumbGrid.className = "completed-grid";
+          thumbGrid.hidden = true;
+          completedCards.forEach((card) => {
+            const link = document.createElement("a");
+            link.className = "completed-thumb";
+            link.href = card.getAttribute("href");
+            const label = card.getAttribute("aria-label");
+            if (label) link.setAttribute("aria-label", label);
+            const source = card.querySelector("img");
+            const img = document.createElement("img");
+            img.src = source.getAttribute("src");
+            img.alt = "";
+            img.width = 1280;
+            img.height = 720;
+            link.appendChild(img);
+            const stamp = document.createElement("span");
+            stamp.className = "completed-stamp";
+            stamp.setAttribute("aria-hidden", "true");
+            link.appendChild(stamp);
+            thumbGrid.appendChild(link);
+            card.remove();
+          });
+          toggle.addEventListener("click", () => {
+            const opening = thumbGrid.hidden;
+            thumbGrid.hidden = !opening;
+            toggle.setAttribute("aria-expanded", String(opening));
+          });
+          section.appendChild(toggle);
+          section.appendChild(thumbGrid);
+          grid.after(section);
+        }
+      })();
+    </script>
+  </body>
+</html>

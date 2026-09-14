@@ -1,0 +1,168 @@
+This is a diamond, a 580 carat diamond,
+and they grew it inside this machine.
+Most people think about diamonds for jewelry,
+but everybody's missing what's most exciting happening right now. We've built giant machines
+that can recreate the inside of the earth to grow diamonds and found brand new ways to make them,
+which is now unlocking the hidden potential of what turns out to be an incredible super material.
+Diamonds are crazy! They're sending diamonds into space, adding them to massive computers,
+and using them to try to solve one of the biggest technological problems we're about to face.
+This story is about pushing the limits of material science to benefit all of us. In this video,
+we're getting rare access inside a lab where they make diamonds. Oh, it's starting to happen. And
+we're shrinking down inside a computer to show you why diamonds are not what you think. "Diamonds."
+"Diamonds." "Lab grown diamonds.: "They're not real diamonds." "We're reaching the limit." "We need more
+computers." "The future of diamond is very exciting." Excuse me while I just hold a fistful of diamonds.
+Oh my god, this is so cool. Look at all these machines.
+They're making diamonds in every single one of these.
+If you wanted to see where a natural diamond is made, you'd have to drill a hole way deeper than
+you think. Most other gemstones, emeralds and sapphires and rubies, form here in the crust.
+But diamonds... come from here inside the mantle. This extremely hot, goopy liquid rock is filled
+with carbon atoms that are squeezed together over millions of years by pressure 50,000 times what it
+is here on the surface, forcing them closer and closer until they form bonds with four of their
+neighbors and become... This structure is what makes diamond not just the hardest natural material we
+know about, but four times harder than the next hardest material. And it's why we've already been
+using diamond for decades to cut and drill and grind and polish because diamond can cut
+through basically anything. But wait... that doesn't look like a diamond. When you think of lab grown
+diamonds, you probably think of this. This is a single crystal diamond. It's the kind that gets
+cut and polished into jewelry. "So that's grown in our chambers and over several weeks of time
+that little seed is converted into that big rough and that might end up being two or three carat in
+this gem." Excuse me while I just hold a fistful of diamonds. Wow! "Be very careful... see these little
+crystals? They're sharp." So one of the things they're telling me is that the edges are very sharp. So I'm going to
+blow these little fragments off of my hand so they don't get, you know, embedded in my skin.
+So now I've got dangerous diamond detritis on my hands. "Diamonditis." I've got diamonditis.
+Thank you! So this is what people might be most familiar with if you know about lab grown
+diamonds. This one is a very different thing. What am I holding here? "You're holding a piece
+of poly crystallin diamond." Instead of growing one single crystal, they grow millions of tiny diamond
+crystallites that bond together. Each diamond being only about the width of a human hair. But
+this particular diamond wasn't made for cutting or polishing. It was made for something very
+different. A hidden superpower of diamond that most people don't know about. So, I've got this
+razor made of stainless steel. Very sharp razor. If you put a razor on an ice cube, you can cut it,
+but I'm pushing into it. It's going to take a while. You take diamond, you do the same thing.
+Ready? Oh my god. Look at that! That diamond cuts ice like it's butter. And this has nothing to
+do with it being super hard. Instead, it has to do with the incredible way that diamond handles ...
+heat. The bonds inside a diamond are short and stiff, but the atoms can still vibrate. And when
+one atom jostles its neighbor and that one jostles the next, the ripple travels through the crystal,
+moving heat. And heat can travel incredibly quickly through diamond. Exactly how fast is
+called its thermal conductivity. And if you look at a chart, here are other popular materials used
+for their really great thermal conductivity. Now, guess where diamond is? Here! Diamond moves heat
+better than almost any other material on Earth. So, that's why this diamond can cut ice like it's
+butter, cuz it's stealing heat from my hand. It took all the heat from my hands. They're so cold.
+Okay, so diamonds are insanely good at stealing heat. Why does that actually matter to me? It's
+time to jump in... into a computer. Hello! So, you know when you're doing something really
+intense with your computer and it gets very hot. That's a small example of a much bigger
+problem that's holding back basically all of our cutting edge computers today. And that's because
+most of what's around me right now is made of silicon. "Silicon." "Silicon." "The Silicon Valley,"
+"the backbone of computing." Silicon is what makes up the on/off switches that run basically all
+modern computers. Transistors. More transistors, more processing power. And we've been able to make
+transistors. Unbelievably small. This is one of the most unbelievable stories about modern
+technology. It is just incredible what we've been able to do. Okay, ready? If this is the size of
+the first iPod, then this is the size of the first transistor. But today's are so much smaller.
+This is the smallest species of ant. It's only 1 millimeter. And this is the size of one
+of my favorite animals, the tardigrade. But now it gets crazy. The smallest human cell is
+the red blood cell. But we need to keep going. Even smaller than the size of bacteria. This
+gets us to the size of the transistor in that first iPod. It's about as big as a flu virus.
+This is the size of the transistors in the first Nintendo Wii. But we still need to go smaller.
+If we keep going all the way down, this is about how small today's transistors actually are.
+This incredible ability to make transistors smaller, has allowed engineers to roughly double the number
+that they can fit onto a chip every 2 years. You might have heard of this, this is called Moore's Law.
+It's why your pocket-sized phone is over 100 million times faster than the computer that landed
+us on the moon. But... we seem to be hitting a wall. If transistors get much smaller, physics tells
+us we won't be able to control how they switch anymore. So, instead of packing more transistors
+side by side, like cramming more houses into a neighborhood, they've started stacking them,
+like multi-story apartments instead of single family homes. But this generates a lot of heat and
+nowhere for it to go. And this extra heat is a big problem. All of the better futures that we dream
+about, powered by more computing, more people in space, or better cars or better medicines
+or cleaner energy, they all rely on finding a way to overcome this heat problem. And now
+they think that diamonds might be able to help. "We want more speed. We want more performance,
+more functionality. And all of that is exercising a humongous pressure on the electronics." That is
+one of the world's leading researchers in using diamond blankets to cool the inside of computers
+so that they can run faster and do more using less power. "We are packing things down into smaller and
+smaller and the more you compel them to run faster and harder. The more heat you are generating and
+that is making things less efficient until it all falls apart." All computers need to get the heat
+off the chip as quickly as possible, that's called heat spreading. And find somewhere to dump it, a
+heat sink. Inside your computer. When it makes that drrruu noise, what's happening is your chip is generating
+heat, and copper on top is trying to get it off the chip and spread it out and send it through copper
+pipes and dump it into a bunch of aluminum fins. Until the fan that you're hearing blows across
+the fin's large surface area to finally carry the heat out of the computer. This is a small problem
+in your computer, but a really big problem in data centers and electric cars and satellites.
+But what if we could use an even more thermally conductive material like... "diamonds seems to be the
+right material." The idea is to grow diamonds right onto chips like a blanket that helps
+steal the heat away much faster. "And what our work showed is that if I wrap it around like a blanket,
+you can make those transistors run cooler, hence way more efficient than otherwise it
+would be." But you can't do that with natural diamonds. Not just because getting it out of
+the ground is so expensive, but because many have trapped pieces of other elements when they formed
+that make them worse at moving heat. So, the only way that this could work. The only reason they're
+exploring this right now is because we've gotten unbelievably good at growing super pure diamonds.
+And how they do it is wild.
+So, on my way to the diamond lab, I was researching the first
+time that anyone ever grew diamonds. And I found all of these really cool released CIA
+documents about it. So, I started writing the next part of the script, but I really
+didn't want anyone looking over my shoulder and seeing what I was doing, which is why I'm using
+this for privacy. Most companies do this with a plastic filter that you stick on. Basically,
+polarized sunglasses, but for your computer. And that works, but it cuts your brightness in half,
+and I lose them constantly. But in this device, there's another layer hidden inside the display,
+thinner than three human hairs. And when I click this button, extra voltage causes the molecules
+in that layer to tilt. So light going straight forward toward me passes through clean. But light
+headed sideways to the nosy person right there doesn't. And it's super easy to turn off and
+on. I travel a lot on this show. And it makes a really big difference to have features on a
+commercial device that work the way that I work. If you want to check it out, go to this link. Now,
+let me show you these documents because the first time anyone ever grew a diamond was in
+a secret project after World War II. Released CIA documents show that the US needed about 5 million
+carats of diamonds a year to grind and drill and cut parts for airplanes and tanks and armor. So,
+General Electric's research lab set out to try to make them. They called it Project Super Pressure
+because they were using a giant machine, similar to this one, that creates conditions like the inside
+of the Earth. It works by taking a super pure carbon powder, adding metal flux, and then heating
+it up to over a thousand degrees celsius to create a molten mix like in the mantle. But instead of using the weight of
+the Earth, this machine uses powerful arms to squish it together, creating pressure that's
+equivalent to placing a commercial airplane on your fingertip. But all that pressure and all that
+heat won't make a diamond unless you have this! A tiny little diamond that acts like a seed, giving
+the carbon atoms something to grip onto. And this speeds up the growing process from millions of
+years to under a week. And they cleverly called this method pressure, high temperature. But today,
+they often use a machine like this with an even newer method. And now they're going to let me
+grow a diamond. Time to grow a diamond. "It's kind of like baking a cake." First ingredient,
+just like the high pressure, high temperature method, we use a diamond seed, telling the
+carbon atoms what molecular structure to form. And instead of placing it between giant arms,
+you place it on this heat resistant metal puck. And then you stick it into this chamber. I'm going to
+click start process. The first thing they do is pump out all of the air from the chamber.
+That way they can add in only the ingredients needed to make a pure diamond. First ingredient,
+hydrogen gas. That's what's going to help build the crystal. Then they turn the chamber into a
+large, powerful microwave. "So, it's 10 times as powerful as a microwave you would have at home."
+These microwaves give hydrogen molecules energy, creating a cloud of plasma gas that can break
+apart molecules. We're going to see the plasma when it starts in 3,2 1. Cool, i's beautiful!
+"It's very cool." Look, there's the plasma. And that's the puck that we put in where the diamonds
+are going to grow. Now, final ingredient, you need carbon. And you get it by adding methane gas,
+CH4. When the methane gets added, you're going to see it change color. It's going to be really
+cool. Oh, it's starting to happen. You can already see it turning green. Oh, yeah. There
+it is. The energy in the plasma breaks apart the methane into carbon and hydrogen. And over time,
+the carbon atoms deposit onto the seed and the crystal grows. They cleverly call this method
+Chemical Vapor Deposition. And if they keep the conditions just right for weeks, you get ... these.
+These are the kind of diamonds you can cut up into gems. But to grow this kind, you don't even need a
+seed. There she is. A newly grown diamond. These are all diamonds, but they're also basically just
+microwaved methane and hydrogen. These lab grown diamonds are even more pure than the ones found
+in the Earth, making them better at moving heat. And we can grow them into any shape that we want.
+And this process of growing diamond has gotten so fast and so reliable that now experts say "every
+chip having a diamond layer is not a sci-fi kind of outlook. Uh I think it's very real. It's very
+possible." In fact, there are already data centers using diamond cooled servers right now. "In fact,
+the world's first diamond cooled server was an Nvidia H200." And look up because there are
+diamond filled satellites in space. "It's helping to shrink the size of satellites. A large portion of
+satellites is designed for the electronics and the managing the heat." Diamonds in data centers
+in particular could be a big deal if they mean you can get way more with way less. And it does seem
+like they can. "This is incredible breakthrough news. This is hot off the press by the way.
+We just got this data last week. This recent test that we just did in a data center in San
+Francisco actually doubled the amount of compute coming off a GPU." Again, just to be really clear,
+this is all a test. It's a big experiment. It's HUGE* If True, right? It implies a future world
+with fewer data centers for the same power. "Instead of building two regular data centers,
+you can build one." "Today's applications is craving for 2° C reduction in temperature. Some of our
+work has shown that we can take it down by 70° C." And beyond more efficient data centers, Diamond
+has more hidden superpowers that people are just beginning to scratch the surface of. Get it? Cuz
+you can't scrap... Never mind. like its incredible ability to handle extremely high voltages,
+which could, in theory, mean really good diamond transistors. Or, its resistance to radiation,
+which makes diamond really useful in space and in massive experiments here on Earth.
+And even its compatibility with our human bodies, which makes diamond promising as a drug delivery
+tool, which are all just HUGE* If True. "I am really really so excited about this." To be really clear,
+we don't know *if true yet. It's a really exciting moment for material science. No one knows exactly
+what role diamonds will play in our computing future. We're figuring it out right now. That's
+what makes this so exciting. It's a big experiment using something that we know for jewelry for
+something much, much bigger. Because we figured out how to mimic the inside of our planet to make
+something that only nature could make before, using tech that's now gotten so good that we
+can explore new ways to use it to benefit humans and the planet that made it in the first place.
+If you believe in optimistic science and tech stories, subscribe.
