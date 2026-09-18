@@ -6,7 +6,7 @@ Context English 是一个用真实视频和文章学习英语的工具. 词和�
 
 ## 下载和使用
 
-1. 下载 ZIP 压缩包: [main.zip](https://github.com/KaynXu/context-english/archive/refs/heads/main.zip)
+1. 下载 ZIP 压缩包: [main.zip](https://github.com/KaynXu/english-in-context/archive/refs/heads/main.zip)
 2. 解压得到文件夹.
 3. 用 Chrome 或 Edge 打开文件夹里的 index.html.
 
