@@ -1,6 +1,6 @@
-# Context English
+# English in Content
 
-Context English is an open source local vocabulary reader for English learning. It uses real YouTube videos and articles to teach English vocabulary, American pronunciation, sentence context, and short notes.
+English in Content is an open source local vocabulary reader for English learning. It uses real YouTube videos and articles to teach English vocabulary, American pronunciation, sentence context, and short notes.
 
 ## Start
 

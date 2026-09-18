@@ -1,12 +1,12 @@
-# Context English
+# English in Content
 
 [English](README.md)
 
-Context English 是一个用真实视频和文章学习英语的工具. 词和表达来自酒店介绍, 科技视频, 访谈和文章. 学习时先看英文, 想看中文再自己点开.
+English in Content 是一个用真实视频和文章学习英语的工具. 词和表达来自酒店介绍, 科技视频, 访谈和文章. 学习时先看英文, 想看中文再自己点开.
 
 ## 下载和使用
 
-1. 下载 ZIP 压缩包: [main.zip](https://github.com/KaynXu/learn-english-with-real-content/archive/refs/heads/main.zip)
+1. 下载 ZIP 压缩包: [main.zip](https://github.com/KaynXu/english-in-content/archive/refs/heads/main.zip)
 2. 解压得到文件夹.
 3. 用 Chrome 或 Edge 打开文件夹里的 index.html.
 
